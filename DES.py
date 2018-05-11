@@ -26,7 +26,7 @@ def encrypt(key,to_encrypt):
 	encrypted_string = cipher.encrypt(to_encrypt)
 	return encrypted_string
 
-to_hash = "Khalti Encryption Key for Api"
+to_hash = "Khalti TEST Encryption Key for Api"
 md5_hashed = hashlib.md5(to_hash.encode())
 md5_hashed = md5_hashed.digest()
 key = md5_hashed

@@ -40,5 +40,4 @@ print("-----------------")
 
 val =decrypt(key,encrypted_string_2)
 print(val)
-print(len(val))
 
